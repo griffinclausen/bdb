@@ -3,8 +3,12 @@ from biopanning_data_bank.bdb_tables.tables import (
 from biopanning_data_bank.bdb_tables.fields import (
 		LIBRARY_FIELDS)
 
+
 class LibraryDatabase(BDB_Database):
-    pass
+
+    def __init__(self, entries):
+        self.fields = LIBRARY_FIELDS
+        super().__init__(entries)
 
 
 class Library(BDB_Entry):

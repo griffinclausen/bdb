@@ -5,7 +5,10 @@ from biopanning_data_bank.bdb_tables.fields import (
 
 
 class TemplateDatabase(BDB_Database):
-    pass
+
+    def __init__(self, entries):
+        self.fields = TEMPLATE_FIELDS
+        super().__init__(entries)
 
 
 class Template(BDB_Entry):

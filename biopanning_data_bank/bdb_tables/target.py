@@ -6,7 +6,10 @@ from biopanning_data_bank.bdb_tables.fields import (
 
 
 class TargetDatabase(BDB_Database):
-    pass
+
+    def __init__(self, entries):
+        self.fields = TARGET_FIELDS
+        super().__init__(entries)
 
 
 class Target(BDB_Entry):

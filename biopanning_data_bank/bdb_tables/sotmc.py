@@ -5,7 +5,10 @@ from biopanning_data_bank.bdb_tables.fields import (
 
 
 class SOTMCDatabase(BDB_Database):
-    pass
+
+    def __init__(self, entries):
+        self.fields = SOTMC_FIELDS
+        super().__init__(entries)
 
 
 class SOTMC(BDB_Entry):

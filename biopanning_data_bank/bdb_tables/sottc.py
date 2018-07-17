@@ -5,7 +5,11 @@ from biopanning_data_bank.bdb_tables.fields import (
 
 
 class SOTTCDatabase(BDB_Database):
-    pass
+
+    def __init__(self, entries):
+        self.fields = SOTTC_FIELDS
+        super().__init__(entries)
+
 
 class SOTTC(BDB_Entry):
     """

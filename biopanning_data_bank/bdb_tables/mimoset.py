@@ -1,7 +1,7 @@
 from biopanning_data_bank.bdb_tables.tables import (
         BDB_Entry, BDB_Database)
 from biopanning_data_bank.bdb_tables.fields import (
-        LIBRARY_FIELDS)
+        MIMOSET_FIELDS)
 
 test_sequences = """
 IMPHKHRRKLRL(1)[0.50 ± 0.02]
@@ -12,6 +12,10 @@ RMKMLMMLMRRK(11)[0.52]
 
 
 class MimosetDatabase(BDB_Database):
+
+    def __init__(self, entries):
+        self.fields = MIMOSET_FIELDS
+        super().__init__(entries)
 
     def output_peptide_info(self, filepath='del.psv'):
         sep = '|'
@@ -32,10 +36,12 @@ class Mimoset(BDB_Entry):
     """
     
     def __init__(self, tree):
-        self.fields = LIBRARY_FIELDS
+        self.fields = MIMOSET_FIELDS
         super().__init__(tree)
 
         self.get_peptides()
+        self.get_most_abundant_peptides()
+
 
     def get_peptides(self):
         peptides = []
@@ -56,11 +62,23 @@ class Mimoset(BDB_Entry):
 
         return peptides
 
+
+    def get_most_abundant_peptides(self):
+        
+        if all([isinstance(_, (int, float)) for _ in self.counts]):
+            index_max = max(range(len(self.counts)), key=self.counts.__getitem__)
+            self.most_abundant_peptides = self.peptides[index_max]
+        else:
+            self.most_abundant_peptides = []
+
+
     def _extract_sequence_string(self, line):
+
         for i, letter in enumerate(line):
             if letter in '[(':
                 break
         return line[:i]
+
 
     def _extract_sequence_count(self, line):
         count = -1

@@ -5,8 +5,11 @@ from biopanning_data_bank.bdb_tables.fields import (
 
 
 class SOCDatabase(BDB_Database):
-    pass
 
+    def __init__(self, entries):
+        self.fields = SOC_FIELDS
+        super().__init__(entries)
+        
 
 class SOC(BDB_Entry):
     """
