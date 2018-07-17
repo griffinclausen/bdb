@@ -1,0 +1,1117 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gt",
+				"getSelection"
+			],
+			[
+				"n",
+				"nucleotide"
+			],
+			[
+				"trans",
+				"translation_system"
+			],
+			[
+				"sampl",
+				"sample_mode"
+			],
+			[
+				"sample",
+				"sample_count"
+			],
+			[
+				"SELEC",
+				"SelectField"
+			],
+			[
+				"stop",
+				"stop_codon_count"
+			],
+			[
+				"Tran",
+				"TranslationSystem"
+			],
+			[
+				"Tra",
+				"TranslationSystem"
+			],
+			[
+				"Trans",
+				"TranslationSystemForm"
+			],
+			[
+				"is",
+				"is_valid_degenerate_oligonucleotide"
+			],
+			[
+				"ST",
+				"StringField"
+			],
+			[
+				"SE",
+				"SelectField"
+			],
+			[
+				"pe",
+				"pe_GGG7"
+			],
+			[
+				"A",
+				"AminoAcid\tclass"
+			],
+			[
+				"Protein",
+				"ProteinEnsemble\tclass"
+			],
+			[
+				"fil",
+				"filepath"
+			],
+			[
+				"out",
+				"output_filepath"
+			],
+			[
+				"pro",
+				"process_release"
+			],
+			[
+				"download",
+				"download_bdb_release"
+			],
+			[
+				"release",
+				"release_index"
+			],
+			[
+				"rela",
+				"release_index"
+			],
+			[
+				"local",
+				"local_index"
+			],
+			[
+				"current",
+				"current_version_local"
+			],
+			[
+				"new",
+				"newest_release"
+			],
+			[
+				"ne",
+				"newest_release"
+			],
+			[
+				"Data",
+				"DATA_DIRECTORY"
+			],
+			[
+				"PACK",
+				"PACKAGE_NAME"
+			],
+			[
+				"biop",
+				"biopanning_data_bank"
+			],
+			[
+				"up",
+				"updated_mappings"
+			],
+			[
+				"get_",
+				"get_nbci_genetic_code"
+			],
+			[
+				"get",
+				"get_nbci_genetic_code"
+			],
+			[
+				"amino",
+				"amino_acids"
+			],
+			[
+				"NCBI",
+				"NCBI_CODONS"
+			],
+			[
+				"NB",
+				"NCBI_AMINO_ACIDS"
+			],
+			[
+				"NCB",
+				"NCBI_AMINO_ACIDS"
+			],
+			[
+				"ncb",
+				"ncbi_id"
+			],
+			[
+				"defaul",
+				"default_parameters"
+			],
+			[
+				"defu",
+				"default_parameters"
+			],
+			[
+				"ALL",
+				"all_compositions"
+			],
+			[
+				"cost",
+				"cost_function"
+			],
+			[
+				"i",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"st",
+				"stop_penalty"
+			],
+			[
+				"amin",
+				"amino_acid_composition"
+			],
+			[
+				"tar",
+				"TargetProfile"
+			],
+			[
+				"co",
+				"composition"
+			],
+			[
+				"tran",
+				"trans_sys"
+			],
+			[
+				"pr",
+				"protein_string"
+			],
+			[
+				"pic",
+				"pick_one"
+			],
+			[
+				"S",
+				"STANDARD_NUCLEOTIDES"
+			],
+			[
+				"_pr",
+				"_process_composition"
+			],
+			[
+				"_pro",
+				"_process_composition"
+			],
+			[
+				"let",
+				"letter_or_composition"
+			],
+			[
+				"is_",
+				"is_ambiguous"
+			],
+			[
+				"AM",
+				"AMBIGUOUS_DNA_CODE_REVERSED"
+			],
+			[
+				"AB",
+				"AMBIGUOUS_DNA_CODE"
+			],
+			[
+				"get_n",
+				"get_nucleotide_members"
+			],
+			[
+				"amb",
+				"ambiguous_dna_code\tstatement"
+			],
+			[
+				"rand",
+				"random_profile\tfunction"
+			],
+			[
+				"from_",
+				"from_dict\tfunction"
+			],
+			[
+				"cod",
+				"codon_profile\tparam"
+			],
+			[
+				"Base",
+				"BaseProfile\tclass"
+			],
+			[
+				"Bas",
+				"BaseProfile\tclass"
+			],
+			[
+				"che",
+				"is_second_check"
+			],
+			[
+				"oli",
+				"oligo_cumsum\tstatement"
+			],
+			[
+				"ol",
+				"oligo_cumsum\tstatement"
+			],
+			[
+				"olug",
+				"oligo_counts\tstatement"
+			],
+			[
+				"codon",
+				"codon_names\tstatement"
+			],
+			[
+				"ab",
+				"amb_cod"
+			],
+			[
+				"coor",
+				"color_cycle_list\tstatement"
+			],
+			[
+				"sca",
+				"scaled_counts\tstatement"
+			],
+			[
+				"sc",
+				"scaled_counts\tstatement"
+			],
+			[
+				"rep",
+				"repeat"
+			],
+			[
+				"bee",
+				"best_value"
+			],
+			[
+				"chan",
+				"change_parameter"
+			],
+			[
+				"best_",
+				"best_value"
+			],
+			[
+				"prin",
+				"print_outline\tfunction"
+			],
+			[
+				"bio",
+				"biotech_data\tstatement"
+			],
+			[
+				"trim",
+				"trim_data_by_cik\tfunction"
+			],
+			[
+				"ver",
+				"vertex_sub_data\tstatement"
+			],
+			[
+				"sub",
+				"subfolder\tparam"
+			],
+			[
+				"SIC",
+				"SIC_BIOTECH\tstatement"
+			],
+			[
+				"data",
+				"data_directory\tstatement"
+			],
+			[
+				"biote",
+				"biotech_data"
+			],
+			[
+				"prep",
+				"prepare_text\tfunction"
+			],
+			[
+				"displ",
+				"display_word\tfunction"
+			],
+			[
+				"text",
+				"textinput"
+			],
+			[
+				"course",
+				"coursename\tstatement"
+			],
+			[
+				"soup",
+				"Soup_to_HTML\tfunction"
+			],
+			[
+				"Pep",
+				"Peptide_Family\tfunction"
+			],
+			[
+				"cber",
+				"cber_txt\tstatement"
+			],
+			[
+				"PDF",
+				"PDF_To_Text\tfunction"
+			],
+			[
+				"ac",
+				"active_field\tstatement"
+			],
+			[
+				"key",
+				"KeyError\tclass"
+			],
+			[
+				"Mimo",
+				"Mimoset_Entry\tclass"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"Affinit",
+				"AffinityMeasurementMethod"
+			],
+			[
+				"v",
+				"vars\tfunction"
+			],
+			[
+				"cur",
+				"current_entry\tstatement"
+			],
+			[
+				"curr",
+				"current_entry_type"
+			],
+			[
+				"current_entr",
+				"current_entry_type\tstatement"
+			],
+			[
+				"align",
+				"alignment_1\tstatement"
+			],
+			[
+				"full",
+				"full_quality\tparam"
+			],
+			[
+				"sib",
+				"sibling_counts\tstatement"
+			],
+			[
+				"siblin",
+				"sibling_counts"
+			],
+			[
+				"sibling",
+				"sibling_name_patterns\tstatement"
+			],
+			[
+				"Dat",
+				"dataframe"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "setup.py",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SublimeREPL.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SublimeREPL.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SublimeREPL.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 381.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: FullPythonTemplate"
+			],
+			[
+				"pip",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack di",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 442.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"x + x",
+			"x.append('d')",
+			"x = \"as\"",
+			"x = 2",
+			"len(\"GAATAAGCCGTGGCCGGCGGATGGTGGAG\")",
+			"sys.path",
+			"os.getcwd()",
+			"os.pwd()",
+			"os.pwd",
+			"import os",
+			"sys.pwd()",
+			"sys.pwd",
+			"import sys",
+			"pwd",
+			"import Bio",
+			"read.split('GGA')",
+			"read.split('GGAT')",
+			"read.split('GGATCCCG')",
+			"read.split('GGATCCCGCAAA')",
+			"read.split('GGATCCCGCAAAA')",
+			"_p8_tail",
+			"read.split('G')",
+			"read = \"AGTATGACGGGTTGGAATCGGGGGGGAGGTCGGCCGAAACTGTCGAGATC\"",
+			"import biopython",
+			"from Bio import pairwise2",
+			"read.split('GGATCCCGCAAAAGCGGC')",
+			"read = \"AATAAGCCGTGGCCGGCGGATGGTGGAGGTTCGGCCGAAACTGTCGAGAT\"",
+			"for i in list(s): pass",
+			"for i in list(s): print(i)",
+			"s",
+			"for i in s: print(i)",
+			"for i in s: print (i)",
+			"for i in s:",
+			"s = 'string'",
+			"a = \"aflkdjfalsdkfjd#BARCODE\\2",
+			"x",
+			"x = 2",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Griffin/OneDrive/Projects/bdb"
+	],
+	"file_history":
+	[
+		"/C/Users/Griffin/OneDrive/Projects/done/setup.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/app/__init__.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/protein_ensembles.py",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/healthcare/icd10/training/ICD-10 Death Certificate/html/page34037.html",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/_demos/JavaScript/Where To 2.html",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/_demos/HTML5/index_javascript.html",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/_demos/HTML5/_index_html5.html",
+		"/C/Users/Griffin/OneDrive/Projects/done/app/static/done.css",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/_demos/JavaScript/Numbers.html",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/_demos/HTML5/index_div_layout.html",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/_demos/HTML5/index_lists.html",
+		"/C/Users/Griffin/OneDrive/Personal/Projects/_demos/HTML5/index_classes_inline.html",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/reports/translation_system_reports.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/requirements.txt",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/protein_ensembles.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/app/templates/translation_system.html",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/reports/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/app/routes.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/reports/translation_system_reports.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/app/config.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/__main__.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/app/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/reports/degenerate_oligonucleotide_reports.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/app/templates/login.html",
+		"/C/Users/gclausen/OneDrive/Projects/done/tests/test_protein_ensembles.py",
+		"/c/users/griffin/onedrive/projects/done/done/protein_ensembles.py",
+		"/C/Users/Griffin/OneDrive/Projects/template/requirements.txt",
+		"/C/Users/Griffin/OneDrive/Projects/template/setup.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/tests/test_protein_ensembles.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/__init__.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/remove_pycache.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/nucleotides.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/__main__.py",
+		"/C/Users/Griffin/OneDrive/Envs/done/Scripts/activate_this.py",
+		"/C/Users/Griffin/OneDrive/Envs/done/.project",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/codons.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/bioensembles.py",
+		"/C/Users/Griffin/OneDrive/Projects/dogma/dogma/translation_systems.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/translation_system.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/amino_acids.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/user_input.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/degenerate_codons.py",
+		"/C/Users/Griffin/OneDrive/Projects/done/done/report.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/setup.cfg",
+		"/C/Users/gclausen/OneDrive/Projects/done/setup.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/requirements.txt",
+		"/C/Users/gclausen/OneDrive/Projects/done/tests/test_sample.py",
+		"/C/Users/gclausen/AppData/Roaming/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/app.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/user_input.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/requirements.txt",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/nxnynz.py",
+		"/C/Users/gclausen/OneDrive/Professional/phd/bioensembles/figure_2.py",
+		"/C/Users/gclausen/OneDrive/Professional/phd/bioensembles/figure_0.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/tmp.txt",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/setup.py",
+		"/C/Users/gclausen/OneDrive/Professional/phd/phage_ensembles/scripts/Peptide_Check.py",
+		"/C/Users/gclausen/OneDrive/Professional/phd/phage_ensembles/scripts/Fastq_Analysis.py",
+		"/C/Users/gclausen/OneDrive/_bioensembles/_python_packages/dogma_old/dogma/ensembles.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/done/ensembles.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/tests/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/done/tests/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/config.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/nxnynz.py",
+		"/C/Users/gclausen/OneDrive/Projects/template/template/__main__.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/nxnyxz_20180518.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/nxnynz - Copy.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/del.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/codon_optimizer_config.py",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz/del.txt",
+		"/C/Users/gclausen/OneDrive/Projects/nxnynz/nxnynz.sublime-project",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/tests/test_config.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/config.py",
+		"/C/Users/gclausen/OneDrive/Projects/notes.txt",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/analysis/all_sequences_neb_1_2_3_len",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/analysis/all_sequences_neb_1_2_3_redundances",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/analysis/all_sequences_neb_1_2_3",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/analysis/all_sequences",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/tables.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/mimoset.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/processed/library.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/processed/mimoset.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/parse.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/process.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/update.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/redundance.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/__main__.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/setup.py",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/.project",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/api.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/requirements.txt",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/README.rst",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/raw/template.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/raw/target.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/raw/sottc.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/raw/sotmc.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/raw/mimoset.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/raw/soc.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/34/raw/library.xml",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/data/32/32",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/Lib/site-packages/bdb.pth",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/Lib/site-packages/bdb.egg-link",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/Lib/site.py",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/Lib/no-global-site-packages.txt",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/Lib/orig-prefix.txt",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/pip-selfcheck.json",
+		"/C/Users/gclausen/OneDrive/Envs/biopanning_data_bank/Lib/site-packages/virtualenv_path_extensions.pth",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb.egg-info/top_level.txt",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb.egg-info/SOURCES.txt",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb.egg-info/dependency_links.txt",
+		"/C/Users/gclausen/OneDrive/Projects/biopanning_data_bank/bdb.egg-info/PKG-INFO",
+		"/C/Users/gclausen/OneDrive/Personal/Projects/_demos/python template.py",
+		"/C/Users/gclausen/OneDrive/Projects/dogma/dogma/aminoacids.py",
+		"/C/Users/gclausen/OneDrive/Projects/template/docs/source/index.rst",
+		"/C/Users/gclausen/OneDrive/Projects/template/docs/source/conf.py",
+		"/C/Users/gclausen/OneDrive/Projects/template/docs/make.bat",
+		"/C/Users/gclausen/OneDrive/Projects/template/docs/Makefile",
+		"/C/Users/gclausen/OneDrive/Projects/template/tests/test_sample.py",
+		"/C/Users/gclausen/OneDrive/Projects/template/requirements.txt",
+		"/C/Users/gclausen/OneDrive/Projects/template/tests/__init__.py",
+		"/C/Users/gclausen/OneDrive/Projects/template/setup.cfg",
+		"/C/Users/gclausen/OneDrive/Projects/template/setup.py",
+		"/C/Users/gclausen/OneDrive/Projects/template/MANIFEST.in",
+		"/C/Users/gclausen/OneDrive/Projects/template/LICENSE.md",
+		"/C/Users/gclausen/OneDrive/_bioensembles/_python_packages/README_template.rst"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "setup.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 236.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.4
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 357.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "bdb.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"re",
+				"requirements.txt"
+			],
+			[
+				"prote",
+				"done\\protein_ensembles.py"
+			],
+			[
+				"base",
+				"app\\templates\\base.html"
+			],
+			[
+				"base.",
+				"app\\templates\\base.html"
+			],
+			[
+				"pro",
+				"done\\protein_ensembles.py"
+			],
+			[
+				"rout",
+				"app\\routes.py"
+			],
+			[
+				"routes",
+				"app\\routes.py"
+			],
+			[
+				"DegenerateOligo",
+				"done\\reports\\degenerate_oligonucleotide_reports.py"
+			],
+			[
+				"nucle",
+				"done\\nucleotides.py"
+			],
+			[
+				"nu",
+				"done\\nucleotides.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1061.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\gclausen\\OneDrive\\phd\\bioensembles\\bioensembles.sublime-workspace"
+			]
+		],
+		"width": 950.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 373.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

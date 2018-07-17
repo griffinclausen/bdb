@@ -1,0 +1,9 @@
+﻿Open(
+	"C:\Users\gclausen\OneDrive\Projects\biopanning_data_bank\analysis\neb_nnk.jmp"
+);
+Bivariate(
+	Y( :Name( "DNA-%ile" ) ),
+	X( :Name( "PEP-%ile" ) ),
+	Histogram Borders( 1 ),
+	By( :Length )
+);
