@@ -34,7 +34,7 @@ class Mimoset(BDB_Entry):
     """
     Mimoset entry container from Biopanning Data Bank Mimoset Database.
     """
-    
+
     def __init__(self, tree):
         self.fields = MIMOSET_FIELDS
         super().__init__(tree)
@@ -62,15 +62,13 @@ class Mimoset(BDB_Entry):
 
         return peptides
 
-
     def get_most_abundant_peptides(self):
-        
+
         if all([isinstance(_, (int, float)) for _ in self.counts]):
             index_max = max(range(len(self.counts)), key=self.counts.__getitem__)
             self.most_abundant_peptides = self.peptides[index_max]
         else:
             self.most_abundant_peptides = []
-
 
     def _extract_sequence_string(self, line):
 
@@ -78,7 +76,6 @@ class Mimoset(BDB_Entry):
             if letter in '[(':
                 break
         return line[:i]
-
 
     def _extract_sequence_count(self, line):
         count = -1

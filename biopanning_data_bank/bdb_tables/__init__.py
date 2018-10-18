@@ -39,6 +39,7 @@ from biopanning_data_bank.bdb_tables.fields import (
     TARGET_FIELDS,
     TEMPLATE_FIELDS)
 
+
 BDB_DATABASES = {
     'library': LibraryDatabase,
     'mimoset': MimosetDatabase,

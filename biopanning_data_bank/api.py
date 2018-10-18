@@ -10,9 +10,12 @@ http://immunet.cn/bdb/
 
 import os
 
-# import requests
+import requests
 
 from biopanning_data_bank.config import DATA_DIRECTORY
+
+from biopanning_data_bank import (
+    get_most_recent_local_release_index)
 
 
 def download_bdb_release(release_index=34):
@@ -45,7 +48,7 @@ def get_most_recent_web_release_index():
         bdb8.1_xml -->                                        /34
         ...
 
-    http://immunet.cn/bdb/index.php/site/download/34 
+    http://immunet.cn/bdb/index.php/site/download/34
     """
     local_index = int(get_most_recent_local_release_index())
 
@@ -53,7 +56,6 @@ def get_most_recent_web_release_index():
 
     base_url = 'http://immunet.cn/bdb/index.php/history/'
 
-    web_index = local_index
     for i in range(max_attempts):
         url = base_url + str(local_index + 1 + i)
         print(f'\t{url}')
@@ -72,7 +74,7 @@ def get_most_recent_web_release_index():
 
 
 def download(release_index=None, overwrite=False):
-    if release_index  is None:
+    if release_index is None:
         release_index = get_most_recent_web_release_index()
 
     subdirectory = os.path.join(DATA_DIRECTORY, str(release_index))

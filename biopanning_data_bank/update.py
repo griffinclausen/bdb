@@ -56,7 +56,7 @@ def get_most_recent_web_release_index():
         bdb8.1_xml -->                                        /34
         ...
 
-    http://immunet.cn/bdb/index.php/site/download/34 
+    http://immunet.cn/bdb/index.php/site/download/34
     """
     local_index = int(get_most_recent_local_release_index())
 
@@ -64,7 +64,6 @@ def get_most_recent_web_release_index():
 
     base_url = 'http://immunet.cn/bdb/index.php/history/'
 
-    web_index = local_index
     for i in range(max_attempts):
         url = base_url + str(local_index + 1 + i)
         print(f'\t{url}')
@@ -84,15 +83,16 @@ def get_most_recent_web_release_index():
 
 def get_most_recent_local_release_index():
     """
-    Returns the most recent version of the biopanning data bank database in the data directory.
-    
+    Returns most recent version of the bdb database in the data directory.
+
     Data files for each release are stored in separated subdirectories.
 
     Returns
     -------
     int    Most recent BDB database currently in data directory
     """
-    return max([f.name for f in os.scandir(DATA_DIRECTORY) if f.is_dir() ] + ['33'])
+    dirs = [f.name for f in os.scandir(DATA_DIRECTORY) if f.is_dir()]
+    return max(dirs + ['33'])
 
 
 def download(release_index=None, overwrite=False):
@@ -119,20 +119,18 @@ def update():
     local_index = get_most_recent_local_release_index()
     print(f'\t{local_index}')
 
-
     print('Checking for latest release index available on web')
     web_index = get_most_recent_web_release_index()
     print(f'\t{web_index}')
-
 
     if web_index > local_index:
         print('Downloading latest database')
         download_bdb_release(web_index)
 
-        print('Processing compressed download file')        
+        print('Processing compressed download file')
         process_release(web_index)
-        
-        print('Parsing data tables')        
+
+        print('Parsing data tables')
         parse_data_files(web_index)
 
     else:
@@ -141,7 +139,7 @@ def update():
 
 def test():
     process_release(34)
-    
+
 
 def main():
     update()

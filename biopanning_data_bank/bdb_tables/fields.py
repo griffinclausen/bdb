@@ -35,11 +35,11 @@ MIMOSET_FIELDS = [
     'Emails']
 
 SOC_FIELDS = [
-	'ComplexID',
-	'ComplexStructure',
-	'SiteOnTarget',
-	'SiteOnBinder',
-	'Interface']
+    'ComplexID',
+    'ComplexStructure',
+    'SiteOnTarget',
+    'SiteOnBinder',
+    'Interface']
 
 SOTMC_FIELDS = [
     'sotmcID',
@@ -64,11 +64,11 @@ TARGET_FIELDS = [
     'TargetComments']
 
 TEMPLATE_FIELDS = [
-	'TemplateID',
-	'TemplateName',
-	'TemplateSynonyms',
-	'TemplateSource',
-	'TemplateType',
-	'TemplateSequence',
-	'TemplateStructure',
-	'TemplateComments']
+    'TemplateID',
+    'TemplateName',
+    'TemplateSynonyms',
+    'TemplateSource',
+    'TemplateType',
+    'TemplateSequence',
+    'TemplateStructure',
+    'TemplateComments']

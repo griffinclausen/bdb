@@ -1,7 +1,7 @@
 from biopanning_data_bank.bdb_tables.tables import (
-		BDB_Entry, BDB_Database)
+        BDB_Entry, BDB_Database)
 from biopanning_data_bank.bdb_tables.fields import (
-		LIBRARY_FIELDS)
+        LIBRARY_FIELDS)
 
 
 class LibraryDatabase(BDB_Database):
@@ -15,7 +15,7 @@ class Library(BDB_Entry):
     """
     Library entry container from Biopanning Data Bank Mimoset Database.
     """
-    
+
     def __init__(self, tree):
-    	self.fields = LIBRARY_FIELDS
-    	super().__init__(tree)
+        self.fields = LIBRARY_FIELDS
+        super().__init__(tree)

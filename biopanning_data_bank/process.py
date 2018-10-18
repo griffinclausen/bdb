@@ -7,17 +7,17 @@ from biopanning_data_bank.config import (DATA_DIRECTORY,
 
 
 def process_raw_data_file(input_filepath, release_index):
-    
+
     filename = os.path.basename(input_filepath)
     print(f'Processing file: {filename} from release {release_index}')
-    
+
     output_directory = os.path.join(DATA_DIRECTORY, release_index, 'processed')
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
     output_filepath = os.path.join(output_directory, filename)
-    
+
     with open(input_filepath, 'r', encoding='utf-8') as f, \
-         open(output_filepath, 'w', encoding='utf-8') as g:
+            open(output_filepath, 'w', encoding='utf-8') as g:
         for line in f:
             for token in INVALID_XML_TOKENS:
                 if token in line:
@@ -48,18 +48,19 @@ def process_all_raw_data_files(release_index):
 def extract_all_raw_data_files(release_index=34):
 
     input_directory = os.path.join(DATA_DIRECTORY, str(release_index))
-    tgz_filepath  = os.path.join(input_directory, str(release_index) + '.tgz')
+    tgz_filepath = os.path.join(input_directory, str(release_index) + '.tgz')
     tar_filepath = os.path.join(input_directory, str(release_index) + '.tar')
 
     for filename in os.listdir(input_directory):
-            if filename.endswith('tgz'):
-                
-                print('\tExtracting .tgz to .tar')
-                with gzip.open(tgz_filepath, 'rb') as f, open(tar_filepath, 'wb') as g:
+        if filename.endswith('tgz'):
+            print('\tExtracting .tgz to .tar')
+            with gzip.open(tgz_filepath, 'rb') as f:
+                with open(tar_filepath, 'wb') as g:
                     g.write(f.read())
-                print('\tExtracting tar to xml files')
-                with tarfile.open(tar_filepath, 'r') as h:
-                    h.extractall(input_directory)
+
+            print('\tExtracting tar to xml files')
+            with tarfile.open(tar_filepath, 'r') as h:
+                h.extractall(input_directory)
 
 
 def process_release(release_index=34):

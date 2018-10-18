@@ -29,14 +29,17 @@ aa_red = {
 }
 
 
-df_nnk_dna = pd.read_csv(os.path.join(DATA_DIRECTORY, 'nnk_dna_percentile_table.csv'), index_col='F')
-df_nnk_pro = pd.read_csv(os.path.join(DATA_DIRECTORY, 'nnk_protein_percentile_table.csv'), index_col='F')
+fp = os.path.join(DATA_DIRECTORY, 'nnk_dna_percentile_table.csv')
+df_nnk_dna = pd.read_csv(fp, index_col='F')
+
+fp = os.path.join(DATA_DIRECTORY, 'nnk_protein_percentile_table.csv')
+df_nnk_pro = pd.read_csv(fp, index_col='F')
 
 
 def calculate_nnk_percentile(pep):
     red = calculate_redundance(pep)
     if red == 0:
-      return 0, 0
+        return 0, 0
 
     length = str(len(pep))
     dna = df_nnk_dna.loc[red][length]
@@ -49,13 +52,14 @@ def calculate_redundance(pep):
     for aa in pep:
         try:
             red *= aa_red.get(aa, 0)
-        except:
+        except Exception as e:
             red = 0
     return red
 
 
 def main():
-    input_filepath = os.path.join(DATA_DIRECTORY, '34', 'analysis', 'all_sequences_neb_1_2_3')
+    input_filepath = os.path.join(DATA_DIRECTORY,
+                                  '34', 'analysis', 'all_sequences_neb_1_2_3')
     with open(input_filepath, 'r') as f:
         for line in f:
             pep = line.strip()
@@ -75,36 +79,26 @@ def main():
                 red = calculate_redundance(pep)
                 if red > 0:
                     pro, dna = calculate_nnk_percentile(pep)
-                    print(f'{pep}\t{length}\t{red}\t{pro}\t{dna}')          
+                    print(f'{pep}\t{length}\t{red}\t{pro}\t{dna}')
 
 
 def test():
-  
-  # filename = 'delete_tags.txt'
-  # filename = 'birnbaum_test.txt'
-  # filename = '1st_generation_random_library_Filtered_AA_UNIQUE.fs'
-  # filename = 'NT-TriNuc_filtered_SLN_pep.txt'
-  filename = 'he_nnk.txt'
-  
-  with open(filename) as f:
-    for line in f:
+    # filename = 'delete_tags.txt'
+    # filename = 'birnbaum_test.txt'
+    # filename = '1st_generation_random_library_Filtered_AA_UNIQUE.fs'
+    # filename = 'NT-TriNuc_filtered_SLN_pep.txt'
+    filename = 'he_nnk.txt'
 
-      pep = line.strip()
+    with open(filename) as f:
+        for line in f:
+            pep = line.strip()
 
-
-      # pep = pep[:5] + pep[7:]  #birnbaum remove conserved HF to 14->12, improve NNkNNKvttNNK...`
-      # pep = line[1] + line[3:6]
-      # if pep.startswith('>') or len(pep) == 0:
-      #   pass
-      # else:
-      #   pep = pep.upper()
-
-      if len(pep) <= 12:
+    if len(pep) <= 12:
         red = calculate_redundance(pep)
         pro, dna = calculate_nnk_percentile(pep)
-      else:
+    else:
         red, dna, pro = 0, 0, 0
-      print(pep, red, dna, pro)
+    print(pep, red, dna, pro)
 
 
 if __name__ == '__main__':

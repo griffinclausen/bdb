@@ -1,6 +1,6 @@
 from collections import Counter
 
-import xml.etree.ElementTree as ET
+# import xml.etree.ElementTree as ET
 
 class BDB_Database:
 
@@ -18,7 +18,7 @@ class BDB_Database:
 
 
 class BDB_Entry:
-    
+
     def __init__(self, tree):
         self.tree = tree
         self.unpack_tree()
@@ -33,4 +33,3 @@ class BDB_Entry:
     def show_tree(self):
         for f in self.fields:
             print(f'{f}\n{self.__dict__[f]}\n')
-            
