@@ -22,7 +22,7 @@ from biopanning_data_bank.process import (
 from biopanning_data_bank.parse import (
     get_tree,
     parse_table,
-    parse_all_tables,   
+    parse_all_tables,
     load_data)
 
 from biopanning_data_bank.api import (
