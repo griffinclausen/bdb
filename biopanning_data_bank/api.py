@@ -14,7 +14,7 @@ import requests
 
 from biopanning_data_bank.config import DATA_DIRECTORY
 
-from biopanning_data_bank import (
+from biopanning_data_bank.update import (
     get_most_recent_local_release_index)
 
 
