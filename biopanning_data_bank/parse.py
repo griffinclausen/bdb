@@ -43,6 +43,13 @@ def parse_all_tables(release_index=DEFAULT_RELEASE_INDEX):
     return databases
 
 
+def load_data(release_index=DEFAULT_RELEASE_INDEX):
+    """
+    Loads all data from specified BDB release as dictionary of datasets.
+    """
+    return parse_all_tables(release_index)
+
+
 def main():
     # parse_table('mimoset')
     parse_all_tables()

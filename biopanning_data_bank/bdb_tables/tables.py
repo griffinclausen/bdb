@@ -16,6 +16,14 @@ class BDB_Database:
             field_counts[field] = counter
         return field_counts
 
+    def info(self):
+        num = len(self.entries)
+        output = str(f'Database of {num} entriesself.')
+        return output
+
+    def __str__(self):
+        return self.info()
+
 
 class BDB_Entry:
 
@@ -33,3 +41,12 @@ class BDB_Entry:
     def show_tree(self):
         for f in self.fields:
             print(f'{f}\n{self.__dict__[f]}\n')
+
+    def info(self):
+        keys = self.fields
+        values = [self.__dict__[k] for k in keys]
+        output = '\n'.join([f'{k}: {v}' for k, v in zip(keys, values)])
+        return output
+
+    def __str__(self):
+        return self.info()
