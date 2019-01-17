@@ -17,6 +17,11 @@ from biopanning_data_bank.config import DATA_DIRECTORY
 from biopanning_data_bank.process import process_release
 
 
+def create_data_folder():
+    if not os.path.exists(DATA_DIRECTORY):
+        os.makedirs(directory)
+
+
 def parse_data_files(release_index):
     """
     Parses each raw BDB file.
@@ -114,6 +119,9 @@ def update():
     """
     Updates data directory with latest BDB database from the web.
     """
+
+    # creates data directory if it does not exist
+    create_data_folder()
 
     print('Checking for latest release index available on data directory')
     local_index = get_most_recent_local_release_index()

@@ -2,6 +2,7 @@ from collections import Counter
 
 # import xml.etree.ElementTree as ET
 
+
 class BDB_Database:
 
     def __init__(self, entries):
