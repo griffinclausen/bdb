@@ -19,7 +19,7 @@ from biopanning_data_bank.process import process_release
 
 def create_data_folder():
     if not os.path.exists(DATA_DIRECTORY):
-        os.makedirs(directory)
+        os.makedirs(DATA_DIRECTORY)
 
 
 def parse_data_files(release_index):
